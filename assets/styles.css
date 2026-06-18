@@ -1,16 +1,16 @@
 :root {
-  --cream: #fbf5eb;
-  --paper: #fffaf3;
-  --blush: #e8b9ad;
-  --rose: #b56f68;
-  --clay: #a8604c;
-  --cocoa: #5b372d;
-  --ink: #2f2521;
-  --muted: #806a5d;
-  --sage: #7b8a75;
-  --plum: #4e3443;
-  --border: rgba(91, 55, 45, 0.18);
-  --shadow: 0 24px 70px rgba(91, 55, 45, 0.14);
+  --cream: #fff7f7;
+  --paper: #fffdfb;
+  --blush: #f8dadd;
+  --rose: #b9887d;
+  --clay: #9a6a5c;
+  --cocoa: #7b574b;
+  --ink: #4b362f;
+  --muted: #8f7168;
+  --sage: #a99b8f;
+  --plum: #7a5a61;
+  --border: rgba(123, 87, 75, 0.18);
+  --shadow: 0 24px 70px rgba(123, 87, 75, 0.12);
   --serif: "Cormorant Garamond", Georgia, serif;
   --sans: "Inter", Arial, sans-serif;
 }

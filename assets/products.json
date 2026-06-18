@@ -11,6 +11,18 @@
     "productPage": "product.html",
     "paymentLink": "https://square.link/u/replace-blind-date-book"
   },
+   {
+    "id": "dark-romance-blind-date",
+    "name": "Dark Romance Blind Date With A Book",
+    "badge": "Separate trope option",
+    "category": "books",
+    "price": "$35.00 AUD",
+    "description": "A wrapped dark romance surprise with mood clues, spice comfort and content care notes.",
+    "visualClass": "dark-romance",
+    "image": "",
+    "productPage": "product.html",
+    "paymentLink": "https://square.link/u/replace-dark-romance-blind-date"
+  },
   {
     "id": "original-book-box",
     "name": "Original Book Box",
@@ -35,18 +47,7 @@
     "productPage": "product.html",
     "paymentLink": "https://square.link/u/replace-dark-romance-book-box"
   },
-  {
-    "id": "dark-romance-blind-date",
-    "name": "Dark Romance Blind Date With A Book",
-    "badge": "Separate option",
-    "category": "books",
-    "price": "$35.00 AUD",
-    "description": "A wrapped dark romance surprise with mood clues, spice comfort and content care notes.",
-    "visualClass": "dark-romance",
-    "image": "",
-    "productPage": "product.html",
-    "paymentLink": "https://square.link/u/replace-dark-romance-blind-date"
-  },
+ 
   {
     "id": "blush-kindle-case",
     "name": "Blush Kindle Case",

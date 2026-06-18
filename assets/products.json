@@ -5,32 +5,20 @@
     "badge": "Bestseller",
     "category": "books",
     "price": "$30.00 AUD",
-    "description": "Choose Romance, Fantasy, Thriller, or Mystery with your favourite tropes for a wrapped surprise paperback."
+    "description": "Choose Romance, Fantasy, Thriller, or Mystery with your favourite tropes for a wrapped surprise paperback.",
     "visualClass": "blind-date",
     "image": "",
     "productPage": "product.html",
     "paymentLink": "https://square.link/u/replace-blind-date-book"
   },
   {
-  "id": "dark-romance-blind-date",
-  "name": "Dark Romance Blind Date With A Book",
-  "badge": "Bestseller",
-  "category": "books",
-  "price": "$35.00 AUD",
-  "description": "A wrapped dark romance surprise with mood clues, spice comfort and content care notes.",
-  "visualClass": "blind-date",
-  "image": "",
-  "productPage": "product.html",
-  "paymentLink": "https://square.link/u/replace-dark-romance-blind-date"
-},
-   {
     "id": "original-book-box",
     "name": "Original Book Box",
     "badge": "Curated box",
     "category": "books",
-    "price": "$85.00 AUD",
+    "price": "$75.00 AUD",
     "description": "A curated box with Romance, Fantasy, Mystery, or Thriller options, trope notes, and bookish extras.",
-    "visualClass": "book-box",
+    "visualClass": "fantasy-box",
     "image": "",
     "productPage": "product.html",
     "paymentLink": "https://square.link/u/replace-original-book-box"
@@ -46,6 +34,18 @@
     "image": "",
     "productPage": "product.html",
     "paymentLink": "https://square.link/u/replace-dark-romance-book-box"
+  },
+  {
+    "id": "dark-romance-blind-date",
+    "name": "Dark Romance Blind Date With A Book",
+    "badge": "Separate option",
+    "category": "books",
+    "price": "$35.00 AUD",
+    "description": "A wrapped dark romance surprise with mood clues, spice comfort and content care notes.",
+    "visualClass": "dark-romance",
+    "image": "",
+    "productPage": "product.html",
+    "paymentLink": "https://square.link/u/replace-dark-romance-blind-date"
   },
   {
     "id": "blush-kindle-case",
@@ -73,7 +73,7 @@
   },
   {
     "id": "bookish-crewneck",
-    "name": "Bookish Crewneck",
+    "name": "Collecting Fictional Boyfriends Hoodie",
     "badge": "Cosy fit",
     "category": "apparel",
     "price": "$58.00 AUD",

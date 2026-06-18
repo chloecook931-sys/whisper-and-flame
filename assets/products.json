@@ -1,0 +1,110 @@
+[
+  {
+    "id": "blind-date-book",
+    "name": "Blind Date With A Book",
+    "badge": "Bestseller",
+    "category": "books",
+    "price": "$34.00 AUD",
+    "description": "Choose your genre, tropes, and spice comfort for a wrapped surprise paperback.",
+    "visualClass": "blind-date",
+    "image": "",
+    "productPage": "product.html",
+    "paymentLink": "https://square.link/u/replace-blind-date-book"
+  },
+  {
+    "id": "fantasy-romance-box",
+    "name": "Fantasy Romance Box",
+    "badge": "Curated box",
+    "category": "books",
+    "price": "$69.00 AUD",
+    "description": "One lush read with magical extras and treats.",
+    "visualClass": "fantasy-box",
+    "image": "",
+    "productPage": "product.html",
+    "paymentLink": "https://square.link/u/replace-fantasy-romance-box"
+  },
+  {
+    "id": "dark-romance-edit",
+    "name": "Dark Romance Edit",
+    "badge": "Limited",
+    "category": "books",
+    "price": "$74.00 AUD",
+    "description": "Broody, dramatic, and carefully content-noted.",
+    "visualClass": "dark-romance",
+    "image": "",
+    "productPage": "product.html",
+    "paymentLink": "https://square.link/u/replace-dark-romance-edit"
+  },
+  {
+    "id": "blush-kindle-case",
+    "name": "Blush Kindle Case",
+    "badge": "Reader staple",
+    "category": "cases",
+    "price": "$42.00 AUD",
+    "description": "Slim magnetic protection in soft blush.",
+    "visualClass": "kindle-case",
+    "image": "",
+    "productPage": "product.html",
+    "paymentLink": "https://square.link/u/replace-blush-kindle-case"
+  },
+  {
+    "id": "sage-kindle-sleeve",
+    "name": "Sage Kindle Sleeve",
+    "badge": "New shade",
+    "category": "cases",
+    "price": "$36.00 AUD",
+    "description": "Padded sleeve with linen lining and snap closure.",
+    "visualClass": "sage-case",
+    "image": "",
+    "productPage": "product.html",
+    "paymentLink": "https://square.link/u/replace-sage-kindle-sleeve"
+  },
+  {
+    "id": "bookish-crewneck",
+    "name": "Bookish Crewneck",
+    "badge": "Cosy fit",
+    "category": "apparel",
+    "price": "$58.00 AUD",
+    "description": "Embroidered cotton fleece for late-night chapters.",
+    "visualClass": "sweater",
+    "image": "",
+    "productPage": "product.html",
+    "paymentLink": "https://square.link/u/replace-bookish-crewneck"
+  },
+  {
+    "id": "library-tote",
+    "name": "Library Tote",
+    "badge": "Everyday",
+    "category": "apparel",
+    "price": "$28.00 AUD",
+    "description": "Heavy cotton tote for market days and book hauls.",
+    "visualClass": "tote",
+    "image": "",
+    "productPage": "product.html",
+    "paymentLink": "https://square.link/u/replace-library-tote"
+  },
+  {
+    "id": "velvet-bookmark-set",
+    "name": "Velvet Bookmark Set",
+    "badge": "Giftable",
+    "category": "accessories",
+    "price": "$18.00 AUD",
+    "description": "Three ribbon bookmarks in blush, rust, and cocoa.",
+    "visualClass": "bookmark",
+    "image": "",
+    "productPage": "product.html",
+    "paymentLink": "https://square.link/u/replace-velvet-bookmark-set"
+  },
+  {
+    "id": "reading-night-kit",
+    "name": "Reading Night Kit",
+    "badge": "Ritual kit",
+    "category": "accessories",
+    "price": "$32.00 AUD",
+    "description": "Tabs, tea, bookmark, page holder, and candle tin.",
+    "visualClass": "reading-kit",
+    "image": "",
+    "productPage": "product.html",
+    "paymentLink": "https://square.link/u/replace-reading-night-kit"
+  }
+]

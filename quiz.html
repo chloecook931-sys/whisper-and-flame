@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en-AU">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Find Your Perfect Blind Date | Whisper & Flame</title>
+    <meta name="description" content="Take the Whisper & Flame quiz to find your perfect Blind Date With A Book recommendation.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="index.html" aria-label="Whisper & Flame home">
+        <span class="brand-mark">W&F</span>
+        <span>Whisper & Flame</span>
+      </a>
+      <button class="nav-toggle" type="button" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="site-nav" aria-label="Primary navigation">
+        <a href="index.html">Home</a>
+        <a href="shop.html">Shop</a>
+        <a href="quiz.html" aria-current="page">Quiz</a>
+        <a href="about.html">About</a>
+        <a href="faq.html">FAQ</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="page-hero quiz-hero">
+        <p class="eyebrow">Find your perfect blind date</p>
+        <h1>A little bookish matchmaking.</h1>
+        <p>Answer a few cosy questions and we will recommend the Blind Date With A Book package most likely to suit your mood, shelf, and comfort level.</p>
+      </section>
+
+      <section class="quiz-shell">
+        <aside class="quiz-intro">
+          <p class="eyebrow">Reader consultation</p>
+          <h2>Tell us what you love, what you avoid, and how brave you feel.</h2>
+          <p>Your result appears after email sign-up so Whisper & Flame can send your match notes, market updates, and future trope drops.</p>
+          <div class="quiz-progress" aria-label="Quiz progress">
+            <span class="active"></span>
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </aside>
+
+        <form class="quiz-card" data-blind-date-quiz>
+          <fieldset>
+            <legend>Favourite genres</legend>
+            <p class="quiz-help">Choose everything you would happily pull from the shelf.</p>
+            <div class="option-grid">
+              <label><input type="checkbox" name="genres" value="romance"> Contemporary romance</label>
+              <label><input type="checkbox" name="genres" value="fantasy"> Fantasy romance</label>
+              <label><input type="checkbox" name="genres" value="dark"> Dark romance</label>
+              <label><input type="checkbox" name="genres" value="cosy"> Cosy mystery</label>
+            </div>
+          </fieldset>
+
+          <fieldset>
+            <legend>Favourite tropes</legend>
+            <p class="quiz-help">Pick the plot sparks you always fall for.</p>
+            <div class="option-grid">
+              <label><input type="checkbox" name="tropes" value="enemies"> Enemies to lovers</label>
+              <label><input type="checkbox" name="tropes" value="slow-burn"> Slow burn</label>
+              <label><input type="checkbox" name="tropes" value="fated"> Fated mates</label>
+              <label><input type="checkbox" name="tropes" value="small-town"> Small town</label>
+              <label><input type="checkbox" name="tropes" value="morally-grey"> Morally grey love interest</label>
+              <label><input type="checkbox" name="tropes" value="found-family"> Found family</label>
+            </div>
+          </fieldset>
+
+          <fieldset>
+            <legend>Spice level preference</legend>
+            <div class="option-grid compact-options">
+              <label><input type="radio" name="spice" value="closed" required> Closed door</label>
+              <label><input type="radio" name="spice" value="medium"> Moderate</label>
+              <label><input type="radio" name="spice" value="high"> Open door</label>
+              <label><input type="radio" name="spice" value="surprise"> Surprise me</label>
+            </div>
+          </fieldset>
+
+          <fieldset>
+            <legend>Favourite authors</legend>
+            <label class="quiz-text-label">
+              <span>Authors, series, or vibes you already love</span>
+              <textarea name="authors" rows="3" placeholder="Example: Sarah J. Maas, Emily Henry, Rebecca Yarros, gothic fantasy, cosy rom-coms"></textarea>
+            </label>
+          </fieldset>
+
+          <fieldset>
+            <legend>Preferred book length</legend>
+            <div class="option-grid compact-options">
+              <label><input type="radio" name="length" value="short" required> Quick read, under 300 pages</label>
+              <label><input type="radio" name="length" value="medium"> Mid-length, 300 to 450 pages</label>
+              <label><input type="radio" name="length" value="long"> Big book, 450+ pages</label>
+              <label><input type="radio" name="length" value="any"> Any length is fine</label>
+            </div>
+          </fieldset>
+
+          <fieldset>
+            <legend>Hard no triggers</legend>
+            <label class="quiz-text-label">
+              <span>Anything you want us to avoid completely</span>
+              <textarea name="triggers" rows="3" placeholder="Share themes, tropes, or content you do not want included."></textarea>
+            </label>
+          </fieldset>
+
+          <fieldset class="quiz-email-step">
+            <legend>Where should we send your match notes?</legend>
+            <p class="quiz-help">Enter your email to reveal your personalised recommendation.</p>
+            <label class="quiz-text-label">
+              <span>Email address</span>
+              <input type="email" name="quiz-email" placeholder="you@example.com" required>
+            </label>
+          </fieldset>
+
+          <button class="button primary full" type="submit">Reveal my blind date</button>
+          <p class="form-note quiz-message" aria-live="polite"></p>
+        </form>
+      </section>
+
+      <section class="quiz-result-section" data-quiz-result hidden>
+        <div class="quiz-result-card">
+          <p class="eyebrow">Your match</p>
+          <h2 data-result-title></h2>
+          <p data-result-description></p>
+          <div class="result-tags" data-result-tags></div>
+          <div class="result-details">
+            <p><strong>Reader notes:</strong> <span data-result-notes></span></p>
+            <p><strong>Hard no triggers:</strong> <span data-result-triggers></span></p>
+          </div>
+          <div class="hero-actions">
+            <a class="button primary" href="product.html">Shop this blind date</a>
+            <button class="button ghost quiz-reset" type="button" data-quiz-reset>Retake quiz</button>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div>
+        <a class="brand" href="index.html"><span class="brand-mark">W&F</span><span>Whisper & Flame</span></a>
+        <p>Cosy book gifts and reader accessories packed in Australia.</p>
+      </div>
+      <div class="footer-links">
+        <a href="shop.html">Shop</a>
+        <a href="quiz.html">Quiz</a>
+        <a href="about.html">About</a>
+        <a href="faq.html">FAQ</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </footer>
+    <script src="assets/main.js"></script>
+  </body>
+</html>

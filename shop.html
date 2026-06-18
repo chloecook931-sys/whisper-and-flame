@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en-AU">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Shop | Whisper & Flame</title>
+    <meta name="description" content="Shop Blind Date With A Book packages, curated book boxes, Kindle cases, apparel, bookmarks, and reading accessories.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="index.html"><span class="brand-mark">W&F</span><span>Whisper & Flame</span></a>
+      <button class="nav-toggle" type="button" aria-label="Open menu" aria-expanded="false"><span></span><span></span><span></span></button>
+      <nav class="site-nav" aria-label="Primary navigation">
+        <a href="index.html">Home</a><a href="shop.html" aria-current="page">Shop</a><a href="quiz.html">Quiz</a><a href="about.html">About</a><a href="faq.html">FAQ</a><a href="contact.html">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="page-hero compact">
+        <p class="eyebrow">The shop</p>
+        <h1>Bookish gifts for every chapter.</h1>
+        <p>Filter by reading mood, gifting moment, or daily ritual.</p>
+      </section>
+
+      <section class="shop-layout">
+        <aside class="shop-sidebar" aria-label="Shop filters">
+          <div class="filter-card">
+            <h2>Categories</h2>
+            <button class="filter-button active" data-filter="all" type="button">All</button>
+            <button class="filter-button" data-filter="books" type="button">Books & boxes</button>
+            <button class="filter-button" data-filter="cases" type="button">Kindle cases</button>
+            <button class="filter-button" data-filter="apparel" type="button">Apparel</button>
+            <button class="filter-button" data-filter="accessories" type="button">Accessories</button>
+          </div>
+          <div class="filter-card">
+            <h2>Why readers return</h2>
+            <p>Wrapped by hand, shipped from Australia, and curated by mood instead of algorithm.</p>
+          </div>
+        </aside>
+
+        <section class="shop-results">
+          <div class="shop-bar">
+            <p><strong data-product-count>Products</strong> ready to gift or keep</p>
+            <select aria-label="Sort products">
+              <option>Featured</option>
+              <option>Price: low to high</option>
+              <option>Price: high to low</option>
+              <option>Best rated</option>
+            </select>
+          </div>
+          <div class="product-grid shop-grid" data-products-grid>
+            <p class="empty-state">Loading products...</p>
+          </div>
+          <p class="empty-state" hidden>No products match that filter yet.</p>
+        </section>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div><a class="brand" href="index.html"><span class="brand-mark">W&F</span><span>Whisper & Flame</span></a><p>Cosy book gifts and reader accessories packed in Australia.</p></div>
+      <div class="footer-links"><a href="shop.html">Shop</a><a href="quiz.html">Quiz</a><a href="about.html">About</a><a href="faq.html">FAQ</a><a href="contact.html">Contact</a></div>
+    </footer>
+    <div class="toast" role="status" aria-live="polite"></div>
+    <script src="assets/main.js"></script>
+  </body>
+</html>

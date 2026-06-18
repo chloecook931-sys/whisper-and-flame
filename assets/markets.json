@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Rose Street Readers Market",
+    "date": "2026-07-12",
+    "displayDate": "12 Jul 2026",
+    "time": "9:00am - 2:00pm",
+    "location": "Rose Street, Fitzroy VIC",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Rose%20Street%20Fitzroy%20VIC"
+  },
+  {
+    "name": "Brisbane Bookish Makers Fair",
+    "date": "2026-08-03",
+    "displayDate": "3 Aug 2026",
+    "time": "10:00am - 3:00pm",
+    "location": "West End, Brisbane QLD",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=West%20End%20Brisbane%20QLD"
+  },
+  {
+    "name": "Spring Romance Pop-Up",
+    "date": "2026-09-19",
+    "displayDate": "19 Sep 2026",
+    "time": "11:00am - 4:00pm",
+    "location": "Newtown, Sydney NSW",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Newtown%20Sydney%20NSW"
+  }
+]

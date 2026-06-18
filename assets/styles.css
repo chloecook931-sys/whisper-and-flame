@@ -372,6 +372,16 @@ details {
   border-radius: 8px;
 }
 
+.collection-photo {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.blind-date-photo {
+  background-image: url("images/blind-date-packages.png");
+}
+
 .product-card {
   overflow: hidden;
   border: 1px solid var(--border);

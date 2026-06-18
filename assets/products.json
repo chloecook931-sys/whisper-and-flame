@@ -4,36 +4,48 @@
     "name": "Blind Date With A Book",
     "badge": "Bestseller",
     "category": "books",
-    "price": "$34.00 AUD",
-    "description": "Choose your genre, tropes, and spice comfort for a wrapped surprise paperback.",
+    "price": "$30.00 AUD",
+    "description": "Choose Romance, Fantasy, Thriller, or Mystery with your favourite tropes for a wrapped surprise paperback."
     "visualClass": "blind-date",
     "image": "",
     "productPage": "product.html",
     "paymentLink": "https://square.link/u/replace-blind-date-book"
   },
   {
-    "id": "fantasy-romance-box",
-    "name": "Fantasy Romance Box",
+  "id": "dark-romance-blind-date",
+  "name": "Dark Romance Blind Date With A Book",
+  "badge": "Bestseller",
+  "category": "books",
+  "price": "$35.00 AUD",
+  "description": "A wrapped dark romance surprise with mood clues, spice comfort and content care notes.",
+  "visualClass": "blind-date",
+  "image": "",
+  "productPage": "product.html",
+  "paymentLink": "https://square.link/u/replace-dark-romance-blind-date"
+},
+   {
+    "id": "original-book-box",
+    "name": "Original Book Box",
     "badge": "Curated box",
     "category": "books",
-    "price": "$69.00 AUD",
-    "description": "One lush read with magical extras and treats.",
-    "visualClass": "fantasy-box",
+    "price": "$85.00 AUD",
+    "description": "A curated box with Romance, Fantasy, Mystery, or Thriller options, trope notes, and bookish extras.",
+    "visualClass": "book-box",
     "image": "",
     "productPage": "product.html",
-    "paymentLink": "https://square.link/u/replace-fantasy-romance-box"
+    "paymentLink": "https://square.link/u/replace-original-book-box"
   },
   {
-    "id": "dark-romance-edit",
-    "name": "Dark Romance Edit",
-    "badge": "Limited",
+    "id": "dark-romance-book-box",
+    "name": "Dark Romance Book Box",
+    "badge": "Dark romance box",
     "category": "books",
-    "price": "$74.00 AUD",
-    "description": "Broody, dramatic, and carefully content-noted.",
+    "price": "$95.00 AUD",
+    "description": "A darker curated romance box with trope preferences, spice comfort, content care notes, and luxe bookish extras.",
     "visualClass": "dark-romance",
     "image": "",
     "productPage": "product.html",
-    "paymentLink": "https://square.link/u/replace-dark-romance-edit"
+    "paymentLink": "https://square.link/u/replace-dark-romance-book-box"
   },
   {
     "id": "blush-kindle-case",

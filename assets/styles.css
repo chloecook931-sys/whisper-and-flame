@@ -1661,10 +1661,10 @@ details p {
     font-size: 0.95rem;
   }
 
-  .brand-mark {
-    width: 2.6rem;
-    height: 2.6rem;
-  }
+.brand-mark {
+  width: 2.35rem;
+  height: 2.35rem;
+}
 
   .hero-actions .button,
   .newsletter .button {

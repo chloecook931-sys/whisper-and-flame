@@ -103,11 +103,11 @@ h3 {
 .brand {
   display: inline-flex;
   align-items: center;
-  width: min(15rem, 42vw);
-  height: 3.2rem;
+  width: min(23rem, 50vw);
+  height: 4.2rem;
   gap: 0;
   overflow: hidden;
-  background: url("images/whisper-flame-header-logo.png") left center / contain no-repeat;
+  background: url("images/whisper-flame-header-logo-transparent.png") left center / contain no-repeat;
   font-weight: 700;
   color: var(--cocoa);
 }
@@ -1671,8 +1671,8 @@ details p {
 
 @media (max-width: 430px) {
   .brand {
-    width: min(12rem, 58vw);
-    height: 2.8rem;
+    width: min(16rem, 62vw);
+    height: 3.4rem;
   }
 
   .brand-mark {

@@ -110,14 +110,14 @@ h3 {
 
 .brand-mark {
   display: grid;
-  width: 2.65rem;
-  height: 2.65rem;
+  width: 3rem;
+  height: 3rem;
   place-items: center;
   border: 1px solid rgba(123, 87, 75, 0.28);
   border-radius: 50%;
-  background: var(--paper);
+  background: var(--paper) url("images/whisper-flame-logo.png") center / 130% auto no-repeat;
   font-family: var(--serif);
-  font-size: 1rem;
+  font-size: 0;
   box-shadow: 0 10px 26px rgba(123, 87, 75, 0.10);
 }
 
@@ -1664,8 +1664,8 @@ details p {
   }
 
   .brand-mark {
-    width: 2.35rem;
-    height: 2.35rem;
+    width: 2.6rem;
+    height: 2.6rem;
   }
 
   .hero-actions .button,

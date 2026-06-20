@@ -889,6 +889,20 @@ textarea {
   font-size: 1.1rem;
 }
 
+.shop-category-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.7rem;
+  max-width: 980px;
+  margin-top: 1.5rem;
+}
+
+.shop-category-row .filter-button {
+  width: auto;
+  min-width: 8.5rem;
+  text-align: center;
+}
+
 .quiz-shell {
   display: grid;
   grid-template-columns: minmax(260px, 0.48fr) minmax(0, 1fr);
